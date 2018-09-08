@@ -1,26 +1,3 @@
-<<<<<<< Updated upstream
-# Calculate_sum_in_a_new_way
-=======
-# Calculate Faulhaber's formula figuratively
-
-## Background   
-The following message is picked up from the wikipedia:
-> ## Faulhaber's formula
->In mathematics, Faulhaber's formula, named after Johann Faulhaber, expresses the sum of the p-th powers of the first n positive integers.https://en.wikipedia.org/wiki/Faulhaber%27s_formula
-
->![](https://wikimedia.org/api/rest_v1/media/math/render/svg/cdfa28bc350e73f808fc51da16d427df1a45fd28)
-
-> ## Figurate number
->The term figurate number is used by different writers for members of different sets of numbers, generalizing from triangular numbers to different shapes (polygonal numbers) and different dimensions (polyhedral numbers). https://en.wikipedia.org/wiki/Figurate_number
-
->![](https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Nicomachus_theorem_3D.svg/220px-Nicomachus_theorem_3D.svg.png)
-
-## My method
-My English is poor,but it's luckily what I am going to explain are mostly shown by pictures.
-
-## Express regcursively
-> S3(n) means the sum of the p-th powers which p equals -3
-
 S3(n) = [(1+3*n)*S2(n)]/(4) + 0.125*S1 + 0.125*S2
 
 S4(n) = [(1+4*n)*S3(n)]/(5) + 0.200*S1 + 0.400*S2 + 0.200*S3
@@ -47,4 +24,3 @@ S14(n) = [(1+14*n)*S13(n)]/(15) + 25.251*S1 + -74.235*S2 + 102.343*S3 + -55.081*
 
 S15(n) = [(1+15*n)*S14(n)]/(16) + 1498.172*S1 + -4758.971*S2 + 6390.418*S3 + -4832.312*S4 + 2418.210*S5 + -664.706*S6 + 387.195*S7 + 182.951*S8 + 184.104*S9 + 124.786*S10 + 65.427*S11 + 22.749*S12 + 4.594*S13 + 0.406*S14
 
->>>>>>> Stashed changes
