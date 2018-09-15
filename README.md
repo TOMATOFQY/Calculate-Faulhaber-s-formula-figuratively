@@ -9,12 +9,15 @@ The following message is picked up from the wikipedia:
 
 > ## Figurate number
 >The term figurate number is used by different writers for members of different sets of numbers, generalizing from triangular numbers to different shapes (polygonal numbers) and different dimensions (polyhedral numbers). https://en.wikipedia.org/wiki/Figurate_number
-
->![](https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Nicomachus_theorem_3D.svg/220px-Nicomachus_theorem_3D.svg.png)
-
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Nicomachus_theorem_3D.svg/220px-Nicomachus_theorem_3D.svg.png)
 ## My method
 My English is poor,but it's luckily what I am going to explain are mostly shown by pictures.
 
+![](Pictures/First.gif)
+![](Pictures/Second.gif)
+![](Pictures/Third.gif)
+
+(The animation are implemented by manim.)
 ## Express regcursively
 > S3(n) means the sum of the p-th powers which p equals -3
 

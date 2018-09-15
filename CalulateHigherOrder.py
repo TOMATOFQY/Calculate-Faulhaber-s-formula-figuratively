@@ -36,19 +36,11 @@ def displayfun(n):
     print("S%d(n) = [(1+%d*n)*S%d(n)]/(%d)" % (n,n,n-1,n+1),end='')
     for i in range(n-1):    
         if C[n-1] != []: 
-<<<<<<< Updated upstream
-            print(" + %f*S%d"%(C[n-1][i],i+1),end='')
-    print()
-    
-if __name__ == '__main__':
-    for n in range(15)[3:]:
-=======
             print(" + %.3f*S%d"%(C[n-1][i],i+1),end='')
     print()
     
 if __name__ == '__main__':
-    for n in range(16)[3:]:
->>>>>>> Stashed changes
+    for n in range(20)[3:]:
         t = time.time()
 
         #caculate b
@@ -75,15 +67,7 @@ if __name__ == '__main__':
             colum.append(funcList[n](i))
         a = np.column_stack((a,colum))
 
-<<<<<<< Updated upstream
         print(n,time.time()-t)
-=======
-        # print(n,time.time()-t)
->>>>>>> Stashed changes
         displayfun(n)
         print()
         # diaplayfun(n)
-
-
-
-
