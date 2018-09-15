@@ -91,3 +91,31 @@ class Third(Scene):
         self.play(ApplyMethod(g1.shift,3*RIGHT),ApplyMethod(g3.shift,3*LEFT))
         self.play(Transform(G,g4))
         self.wait()
+    
+class Forth(Scene):
+    def construct(self):
+        l41 = TextMobject("2n+1")
+        l42 = TextMobject("2n+1  2n+1")
+        l43 = TextMobject("2n+1  2n+1  2n+1")
+        l44 = TextMobject(". . . . . . . . . .")
+        l45 = TextMobject("2n+1 2n+1 ... 2n+1 2n+1")
+        G = VGroup(l41,l42,l43,l44,l45)
+        G.arrange_submobjects(DOWN)
+
+        l1 = TexMobject('3*S_n = (2n + 1)*(1 + 2 + 3 + ... + n)')
+        l2 = TexMobject('S_n = {(2n + 1)\\over 3}*(1 + 2 + 3 + ... + n)')
+        l3 = TexMobject('S_n = {(2n + 1)(n + 1)n\\over 6}')
+
+        # I have to roast the idea that the function ReplacementTransform is different from Transform is a really a bad design. When I first use Transform,I supposed there is some problem with my environment.But the fact turn out that the bug is just about designing.
+        self.add(G)
+        self.wait()
+        self.play(ReplacementTransform(G,l1))
+        self.wait()
+        self.play(ReplacementTransform(l1,l2))
+        self.wait()
+        self.play(ReplacementTransform(l2,l3))
+        self.wait()
+
+
+
+        
