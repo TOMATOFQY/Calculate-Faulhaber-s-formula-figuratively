@@ -9,6 +9,7 @@ The following message is picked up from the wikipedia:
 
 > ## Figurate number
 >The term figurate number is used by different writers for members of different sets of numbers, generalizing from triangular numbers to different shapes (polygonal numbers) and different dimensions (polyhedral numbers). https://en.wikipedia.org/wiki/Figurate_number
+
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Nicomachus_theorem_3D.svg/220px-Nicomachus_theorem_3D.svg.png)
 ## My Idea about it
 ### The Animation
@@ -27,7 +28,28 @@ As you see, through taking apart the quadratic term,we get back the additivity. 
 
 The inspiration was taken from the Gaussian quadrature.The talented way which Guass used to solve the sum from 1 to 100 in his childhood.
 
-**The main idea of my method is to regain the additivity of these High-order term by explaning them figuratively.** Now let's use this method to solve the sum of 3-th power.
+**The main idea of my method is to regain the additivity of these High-order term by explaning them figuratively.**
+
+ Now let's use this method to solve the sum of 3-th power.Take S2 = 1 + 2^3 for example. Seperate 2^3 into 2*2 and 2. And now,you got four 2. The next what you should do is to arrange them in a approperly way. Maybe you would try rectangular pyramid since 2 can be arranged as a square. But it loss central symmetry.If you try cube,you will find the number "n" is not enough to fill the rest space.
+
+ According to my ituition,I find the model of diamond is proper in some way.
+
+![](Pictures/Fifth_1.gif)
+![](Pictures/Fifth_2.gif)
+![](Pictures/1.png)
+
+(I hope you could understand this picture.I couldn't fix the axis any better.)
+
+![](Pictures/Sixth.gif)
+
+If you are sharp enough,you will find one bug in it.That's, the central's value of each model is larger than other place.
+
+![](Pictures/Seventh.gif)
+
+![](Pictures/2.jpg)
+![](Pictures/3.jpg)
+
+Actually I didn't work out why it happend. It doesn't work as perfect as 2-Order and 1-Order.(If you like ,you can say 0-Order is the situation sum up lots of dot just to get one natural num.) But the bug is lovely enough, according to my ituition, the sum of the red dots is half of the sum of 1-th and 2-th Faulhaber's formula.
 
 
 ## Expressed High order Formula regcursively
